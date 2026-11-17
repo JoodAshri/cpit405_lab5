@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My CV</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="top-header">
+  <h1>Jood Ashri</h1>
+  <p class="subtitle">Information Technology Student</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="controls no-print">
+    <button id="theme-btn" class="btn">Dark Mode</button>
+    <button id="print-btn" class="btn">Print / Save as PDF</button>
+  </div>
+</header>
+
+<main>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am an Information Technology student at King Abdulaziz University, graduating in 2027 with a GPA of 4.67/5.0. .</p>
+    <div id="more-about" class="hidden">
+      <p>I am skilled in Java development, software engineering principles, database management, and UI/UX design. I have worked on client-server systems, desktop applications, and 3D modeling through my academic projects.</p>
+      <p>I also use tools such as Figma, Git/GitHub, MySQL, and Blender.</p>
+    </div>
+    <button id="toggle-about" class="btn no-print">Show More</button>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <p class="item"><strong>King Abdulaziz University</strong></p>
+    <p>Bachelor of Science (B.Sc.) in Information Technology, 2022 - 2026</p>
+    <p>GPA: 4.67 / 5.0</p>
+    <p>Coursework: Software Engineering, Advanced Programming, Database Systems, Computer Networks, Information Security, Operating Systems, UI/UX Design, Design Patterns, Multimedia, Computer Graphics, and Software Project Management.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>Java</li>
+      <li>Python</li>
+      <li>SQL</li>
+      <li>Java Swing</li>
+      <li>MySQL</li>
+      <li>Git / GitHub</li>
+      <li>NetBeans</li>
+      <li>Figma</li>
+      <li>Blender</li>
+      <li>Balsamiq</li>
+      <li>Canva</li>
+      <li>Cisco</li>
+      <li>MS Project</li>
+      <li>Wix</li>
+    </ul>
+  </section>
+
+  <section id="languages">
+    <h2>Languages</h2>
+    <ul class="skills-list">
+      <li>Arabic: Native</li>
+      <li>English: Fluent</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="filters no-print">
+      <button class="btn filter-btn active" data-category="All">All</button>
+      <button class="btn filter-btn" data-category="Web">Web</button>
+      <button class="btn filter-btn" data-category="Programming">Programming</button>
+    </div>
+    <div id="projects-list"></div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:joudal3shri@gmail.com">joudal3shri@gmail.com</a></p>
+    <p>Location: Jeddah, Saudi Arabia</p>
+    <p>GitHub: <a href="https://github.com/JoodAshri">github.com/JoodAshri</a></p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Jood Ashri</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
